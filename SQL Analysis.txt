@@ -1,0 +1,10 @@
+Analysis Through SQL.
+Question :  Given a table write a query …
+ 1. List the three stores with the highest number of customer transaction 
+ 2. Extract employee IDs for all employees who earned a three or high 
+on their last performance review
+ 3. Calculate the average monthly sales by product displayed in 
+descending order
+ 4. Find and remove duplicate in the table without creating another 
+table.
+ 5. Identify the common record between two tables
