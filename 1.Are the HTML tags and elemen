@@ -1,0 +1,160 @@
+Assignment html 
+1.Are the HTML tags and elements the same thing?
+
+html tags are difine html block
+html elements is combination of 'Tags & content.'
+Example:
+<tag> content <tag>
+-------Element-------
+
+2.What are tags and attributes in HTML?
+Tags are difine format of elements & this is a block of Html.
+Attributes are modify the conent of tags.
+
+Example:
+<tag attribute=''value''> contents <tag> 
+
+3.What are void elements in HTML?
+Void elements means which tag they have no closing tag.
+Example:
+<hr>, <br> etc..
+
+4.What are HTML Entities?
+
+HTML Entities is any text, coder can't difine by typing. it's difine some uniqe code which start ampersand & and it is by ; semicolon
+
+Example:
+
+&emp;		&  (difine)
+
+5.What are different types of lists in HTML?
+
+There are three types of list in Html.Ordered listUnordered listDescription list
+
+Example:
+
+<ol>
+<li>
+<li>
+<ol>
+
+6. What is the 'class' attribute in HTML?
+Example:
+class attribute commonly use by css for one or multiple selection of elements.
+
+
+<tag class=''value''> contents <tag> 
+
+7.What is the difference between the 'id' attribute and the 'class'attribute of HTML elements?
+
+Id attribute use for one uniqe selection in css. and class attributes use for multiple selection in css.
+
+Example:
+
+<p id=''one''> contents <p> <p class=''multiple''> contents <p> 
+
+8.What are the various formatting tags in HTML?
+
+Various formayting tags can change taxt format.
+
+Example:Â 
+
+
+<b> - for bold text
+<song> - for strong text
+<sub> -Â for Subscript text
+
+9.How is Cell Padding different from Cell Spacing?
+
+1.Cellpadding works inside the border.
+
+2.Cell spaceing works outside the border.
+
+Example:
+
+Cell PaddingCell spacing
+
+10.How can we club two or more rows or columns into a single row or column in an HTML table?
+
+colspan or rowspan attributes are club two or more rows or columns into a single row or column in an HTML table? .
+
+Example: 
+
+colspanrowspandata
+
+11.What is the difference between a block-level element and an inline element?
+
+Which element have 100% width, that is block level element.
+
+Example:
+<div>Â is a block-level element
+
+Inline element use for some changing in element.
+
+Example:
+<span> is a inline element
+
+12.How to create a Hyperlink in HTML?
+
+use the <a> tag for Hyperlink in HTML.
+
+apload link address in href attribute
+
+Example:
+
+<a href=''www.google.com''> google <a> 
+
+13.What is the use of an iframe tag?
+
+Iframe tag normally use for ads, videos, comments etc..
+
+Example:
+
+14.What is the use of a span tag? Explain with example?
+
+Span tag is use for any changing in the inline-elemet .
+
+Example:
+
+<p> < span> contents </span></p> 
+
+15.How to insert a picture into a background image of a web page?
+
+Enter a background attribute insie the body tag.
+
+Uploade the image address in background attribute.
+
+Example: 
+
+<body background=''value.png''> </body> 
+
+16.How are active links different from normal links?
+
+if don't hover the mouse it's normal link.
+
+But hover the mouse so it's active links.
+
+17.What are the different tags to separate sections of text?
+
+br, hr, vr, etc.. theis tags are the different tags to separate sections of text .
+
+Example:
+<br>, <hr>
+
+18.What is SVG?
+Simply apply as a img tag.
+normally svg used for website icon...
+Example:
+<svg src='facebook.png.svg' height='100' width='100' alt='no image'>
+
+19.What is difference between HTML and XHTML?
+HTML is a markup language that was used to build the world's first webpage. Ever since this webpage was created, there have been a lot of modifications and variations done in the HTML language, such as adding the concept of error handling, addition of new features such as a table, etc., because of which XHTML came into the picture.
+
+20.What are logical and physical tags in HTML?
+ Logical tags :Logical tags are used to tell the browser enclosed text, and more important then other text... 
+Example: 
+<strong>
+
+Physical tags : Physical tags are used to tell the browser how to display the text enclosed in the physical tag.
+Example:
+<b>, <li>, <i>, etc..
