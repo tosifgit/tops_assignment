@@ -1,0 +1,39 @@
+HTML5 
+
+HTML5 
+
+1. What are the new tags added in HTML5?
+
+A. Ther are some new tags added in HTML5.
+
+Example:
+
+<Nav>, <Header>, <Section>,  <Aside>,  <Artical>, 
+
+<Footer>, <audio>, <video>, & many more...
+
+2. How to embed audio and video in a webpage? 
+
+A. Simple create video tag and add important video path in sorce, just like that...
+
+Example:
+
+<Video src="abc.mp4" controls Height="100" width="100" > <video>
+
+<audio src="abc.mp3" controls > <audio> 
+
+ 
+
+3. Semantic element in HTML5?
+
+A. Those tags which show content of inside them.
+
+Example:
+
+<span>, <div>, etc..
+
+4. Canvas and SVG tags?
+
+A. Canvas tag not suppor in browser, but
+
+svg tag upload simpley like image tag, just like that
