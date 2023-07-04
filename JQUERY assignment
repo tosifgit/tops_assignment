@@ -1,0 +1,46 @@
+1. What is jQuery?
+Ans: jQuery is a popular javascript library. It's making easy to coding and smooth.
+
+2. How to Apply CSS Using JQuery, How to Add Class and Remove Class in Jquery, JQuery Animation?
+Ans: Call to element id and add ".css" then apply style in elements.
+Example:
+$("myId").css("color: red");
+
+3. How to create slider with animation?
+
+Ans: slider animation with jQuery 
+<body>
+    <div class="slider">
+    <div>
+    <img src="arseny-togulev-kGix6_gPKjI-unsplash.jpg" alt="ni" />
+    </div>
+    <div>
+    <img src="IMG-20230628-WA0005.jpeg" alt="" />
+    </div>
+    <div>
+    <img src="IMG-20230629-WA0001.jpg" alt="" />
+    </div>
+    
+    </div>
+    <script>
+        $(document).ready(function(){
+            $('.slider').slick(
+                autoplay: true;
+                dots: true;
+                );
+        });
+    </script>
+4. Event bubbling tickling example
+Ans: In jQuery event bubbling is when an event triggered on a child element will also trigger on its parent element.
+
+Example:
+<div id="parent">
+    <div class="child"></div>
+</div>
+
+ $("#parent").on("click"function() {
+            console.log("parent clicked!");
+        });
+        $(".parent").on("click"function() {
+            console.log("child clicked!");
+        });
