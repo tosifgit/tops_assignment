@@ -1,0 +1,117 @@
+I What are the advantages of Bootstrap?
+answer: Bootstrap is free to access for developers and open source for all.
+1. Bootstrap provides a responsive layout, and template design.
+2. We can customize changes in layout and templates.
+3. Bootstrap adapts varius screen sizes from desktop to mobile.
+4. It's time-saving.
+
+
+II What is a Bootstrap Container, and how does it work?
+answer: Bootstrap Container is a fixed layout. It Provides a responsive grid system for any devices and multiple screens.
+It's the main block of any block of Bootstrap layout.
+Example
+<div class="container">
+  <!-- Your content goes here -->
+  <h1>Hello, Bootstrap!</h1>
+  <p>This is a Bootstrap container.</p>
+</div>
+
+
+III What are the default Bootstrap text settings? There are Bootstrap default settings with examples..
+Example
+font-family: Sans-Serif;
+font-weight: 400(normal text), 700(for headings);
+font-size: 16px(1rem);
+text-color: #000(black);
+text-align: left;
+
+
+IV What do you know about the Bootstrap Grid System?
+The Bootstrap grid system is a responsive and flexible layouts for different types of screens.
+
+1. 12-Grid columns: The grid system is based on a 12 columns layouts for different screen sizes.
+2. Responsiveness: Bootstrap grid system is set responsively. It means automatically adjust and fit to content varius screen sizes from mobile to desktop.
+3. Classes: We can use classes for CSS like (col-sm, col-md, col-lg. For small medium and large).
+4. Customisation: We can use customize grid system as project needs.
+Here is some examples..
+Example
+<div class="container">
+  <div class="row">
+    <div class="col-md-4">Column 1</div>
+    <div class="col-md-4 offset-md-1">Column 2 with offset</div>
+  </div>
+</div>
+
+
+V What is the difference between Bootstrap 4 and Bootstrap 5
+Here are some differences between Bootstrap 4 and Bootstrap 5:
+jQuery dependency
+A; Bootstrap 4 had jQuery for some interactive components and functionalities, as drop-down and modals.
+B; Bootstrap 5 removed the jQuery dependency, making it a lighter framework and improving performance.
+
+Flexibility in all features:
+A; Bootstrap 5 is more then flexible /bootstrap 4.
+Example:
+(1)classes, (2) components, (3)Layouts, etc..
+
+
+VI What is a Button Group, and what is the class for a basic Button Group?
+Button Group is a container who is all buttons.
+As below an example..
+Example
+<div class="btn-group" role="group" aria-label="Basic example">
+  <button type="button" class="btn btn-primary">Button 1</button>
+  <button type="button" class="btn btn-secondary">Button 2</button>
+  <button type="button" class="btn btn-success">Button 3</button>
+</div>
+So that is a group of buttons.
+
+
+VII How can you use Bootstrap to make thumbnails?
+1.Create the main div as a container and give them a class ".thunmbnail".
+2. Create a image tag and give the URL inside. So that is our thumbnail.
+3. You can also include a <div> and give a class ".captain" and then add some additional content below the image.
+4. Inside the "caption" div, you can add <h3> for thumbnail and for the discription or additional content give <p> tag inside the ".caption"  div.
+Example
+<div class="thumbnail">
+  <img src="image.jpg" alt="Image">
+  <div class="caption">
+    <h3>Thumbnail Label</h3>
+    <p>Description or additional content goes here.</p>
+    </div>
+</div>
+
+
+VIII In Bootstrap 4, what is flexbox?
+Flexbox is a CSS layout system used to create flexible and responsive web page layouts. Flexbox is designed to distribute space along a single axis (horizontally or vertically),
+making it easier to align and distribute elements within a container.
+Bootstrap 4 is a css layout system used to create flexible layout as total width or height.
+Flexbox is distributing space horizontally or vertically and then fits into a container.
+Example
+ <div class="container d-flex justify-content-center align-items-center" >
+        <div>
+             <h1>Welcome to My Website</h1>
+            <p>This is a simple example of a responsive layout using Bootstrap 4 flexbox classes.</p>
+        </div>
+    </div>
+
+
+IX How can one create an alert in Bootstrap?
+Ans: Create a div and give a class for alert. Then give a color like red ".alert alert-danger". And give a role ".alert".
+Example
+<div class="alert alert-primary" role="alert">
+  This is a primary alert.
+</div>
+
+
+X What is a bootstrap card and how would you create one?
+Ans: Bootstrap Cards is block to use display varius content like (links, images, texts, etc..);
+Example:
+<div class="card">
+  <div class="card-body">
+    <h5 class="card-title">Card Title</h5>
+    <p class="card-text">Some quick example text to build on the card.</p>
+    <a href="#" class="btn btn-primary">Go somewhere</a>
+  </div>
+</div>
+---THE END---
